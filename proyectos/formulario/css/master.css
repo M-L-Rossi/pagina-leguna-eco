@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+body {
+  background-image: url(../images/background-3.png);
+  color: white;
+  font-size: 20px;
+  font-family: 'Red Hat Mono', monospace;;
+}
+
+.tittle {
+  text-align: center;
+}
+
+.banner img {
+  width: 25%;
+  padding-left: 38%;
+  padding-right: 30%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #141319;
+}
+
+a {
+  color: inherit;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 12px 16px;
+  background-color: 141319;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: 591b6b;
+  transition: 0.3s;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+}
+
+.dropdown-content a {
+  color: inherit;
+  padding: 14px 18x;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #591b6b;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.icono {
+  overflow: hidden;
+  text-align: left;
+  display: inline;
+  height:1.25em;
+}
+
+.active {
+  background-color: 591b6b;
+}
+
+.middle-screen {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.form-li {
+  text-decoration: none;
+  float: none;
+  display: block;
+}
+
+.form-input {
+  text-decoration: none;
+  display: block;
+  width: 50%;
+  text-align: center;
+  padding-left: 43%;
+  padding-right: 58%;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid f9f9f9;
+  margin-top: 8px;
+}
+
+input {
+  background-color: 141319;
+  color: white;
+}
+
+.input-a {
+
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f9f9f9;
+}
+
+input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f9f9f9;
+}

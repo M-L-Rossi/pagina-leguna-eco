@@ -1,0 +1,90 @@
+body {
+				background: url("../images/backg.jpg");
+        text-decoration: none;
+        color: white;
+        font-family: "Monospace", "Lucida Console";
+        font-size: 25px;
+}
+
+.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: auto;
+}
+
+button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+	font-family: "Monospace", "Lucida Console";
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000427;
+}
+
+a {
+  color: inherit;
+}
+
+.nav-bar {
+  text-decoration: none;
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  padding: 8px;
+
+}
+
+.nav-bar-li {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+}
+
+.nav-bar-a {
+  display: block;
+  padding: 20px 26px;
+  background-color: #000427;
+  text-decoration: none;
+}
+
+.nav-bar-a:hover {
+  background-color: #000417;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.middle-screen {
+  padding-left: 23%;
+  padding-right: 23%;
+}
+
+.middle-screen-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.row {
+  float: right;
+  width: 30%;
+}
